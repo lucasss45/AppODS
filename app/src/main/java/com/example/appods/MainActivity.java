@@ -17,27 +17,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goCN(View view) {
-        setContentView(R.layout.activity_ch2);
+        setContentView(R.layout.activity_ch1);
     }
 
     public void goCH(View view) {
-        setContentView(R.layout.activity_ch2);
+        setContentView(R.layout.activity_ch1);
     }
 
     public void goLG(View view) {
-        setContentView(R.layout.activity_ch2);
+        setContentView(R.layout.activity_ch1);
     }
 
     public void goTC(View view) {
-        setContentView(R.layout.activity_ch2);
+        setContentView(R.layout.activity_ch1);
     }
 
     public void goMat(View view) {
-        setContentView(R.layout.activity_ch2);
+        setContentView(R.layout.activity_ch1);
     }
 
     public void goPVPV(View view) {
-        setContentView(R.layout.activity_ch2);
+        setContentView(R.layout.activity_ch1);
     }
 
 
