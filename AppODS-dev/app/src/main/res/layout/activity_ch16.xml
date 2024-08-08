@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C1D2E">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_6"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16.1 Reduzir significativamente todas as formas de violência e as taxas de mortalidade relacionada em todos os lugares"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16.2 Acabar com abuso, exploração, tráfico e todas as formas de violência e tortura contra crianças"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16.4 Até 2030, reduzir significativamente os fluxos financeiros e de armas ilegais, reforçar a recuperação e devolução de recursos roubados e combater todas as formas de crime organizado"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goMenu"
+        android:text="Home"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="531dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
